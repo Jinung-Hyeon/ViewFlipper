@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 viewFlipper.showPrevious();
-                Toast.makeText(MainActivity.this, viewFlipper.getDisplayedChild()+"", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, viewFlipper.getDisplayedChild()+"", Toast.LENGTH_SHORT).show();
             }
         });
 
